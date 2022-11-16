@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, TextInput } from "react-native";
+import { View, Text, TextInput, Linking } from "react-native";
 import { styles } from "./styles";
 
 
@@ -19,6 +19,10 @@ export const Login = ()=> {
             <View style={styles.textBox}>
             <TextInput placeholder="Senha" style={styles.textSenha}></TextInput>
             </View>
+            <Text style={styles.textPolitica}>Eu concordo</Text>
+            <Text style={styles.textPolitica}>Política de privacidade e</Text>
+            <Text style={styles.textPolitica}>Acordo de serviço</Text>
+
         </View>
     )
 

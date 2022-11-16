@@ -35,5 +35,9 @@ export const styles = StyleSheet.create({
         margin: 10,
         borderRadius: 15,
     },
+    textPolitica: {
+        textAlign: 'center',
+
+    },
     
 })
