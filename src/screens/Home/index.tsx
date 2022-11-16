@@ -23,7 +23,7 @@ export const Home = ()=> {
 
         </TouchableOpacity>
 
-        <TouchableOpacity activeOpacity={1} style={styles.buttonPlus}> 
+        <TouchableOpacity activeOpacity={0.5} style={styles.buttonPlus}> 
         
         <Text style={styles.textPlus}>+</Text>
 
